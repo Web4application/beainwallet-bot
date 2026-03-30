@@ -54,7 +54,7 @@ make up
 
 ### 4. Connect
 
-Open **http://localhost:8000** in your browser.
+Open **http://127.0.0.1:8000** in your browser.
 
 A setup prompt appears on first boot — paste your Braiins Owner Token and click **Validate & Connect**. The key is validated live against the Braiins API, then encrypted and stored in the Docker volume. The engine starts automatically once the key is saved.
 
