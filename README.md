@@ -44,7 +44,7 @@ cd braiins-hashbot
 make setup
 ```
 
-Checks all required files are present and creates `.env` from `.env.example`.
+Checks all required files are present and creates `.env` from `.env.local`.
 
 ### 3. Start
 
@@ -54,8 +54,9 @@ make up
 
 ### 4. Connect
 
-Open **http://127.0.0.1:8000** in your browser.
-
+Open **http://127.0.0.1:8000** in your browser.  **http://127.0.0.1:3333**
+ **http://127.0.0.1:3000**
+                                                         **http://127.0.0.1:50002**                
 A setup prompt appears on first boot — paste your Braiins Owner Token and click **Validate & Connect**. The key is validated live against the Braiins API, then encrypted and stored in the Docker volume. The engine starts automatically once the key is saved.
 
 ---
